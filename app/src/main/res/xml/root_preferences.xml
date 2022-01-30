@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general_settings">
+
+        <SwitchPreferenceCompat
+            app:key="auto_play"
+            app:title="@string/auto_play_title" />
+
+        <SwitchPreferenceCompat
+            app:key="download"
+            app:summaryOff="@string/auto_download_summary_off"
+            app:summaryOn="@string/auto_download_summary_on"
+            app:title="@string/automatic_download" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

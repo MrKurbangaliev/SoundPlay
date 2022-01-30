@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sound Play</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_store">Store</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_playlists">Playlists</string>
+    <string name="title_activity_songs">Songs</string>
+    <string name="title_activity_albums">Albums</string>
+    <string name="title_activity_downloads">Downloads</string>
+
+    <!-- Preference Titles -->
+    <string name="general_settings">General</string>
+
+    <!-- General Preferences -->
+    <string name="auto_play_title">Auto-play music</string>
+    <string name="automatic_download">Download music automatically</string>
+    <string name="auto_download_summary_on">Automatically download trek for when its played</string>
+    <string name="auto_download_summary_off">Only download music when manually requested</string>
+    <string name="album_art_image_description">Album art image</string>
+    <string name="play_button">Play button</string>
+    <string name="previous_song_button">Previous song button</string>
+    <string name="next_song_button">Next song button</string>
+    <string name="album_art_picture">Album art picture</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="delete_song">Delete song</string>
+</resources>
