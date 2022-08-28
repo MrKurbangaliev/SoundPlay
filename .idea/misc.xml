@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_add_button.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable/chevron_right.xml" value="0.1005" />
         <entry key="app/src/main/res/drawable/outline_settings_24.xml" value="0.189" />
         <entry key="app/src/main/res/layout/activity_albums.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_now_playing.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_playlists.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/create_playlist_screen.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/list_universal.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/playlist_list_item.xml" value="0.9423768195553103" />
+        <entry key="app/src/main/res/layout/song_list_item.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/menu/add_new_item_menu.xml" value="0.2171875" />
         <entry key="app/src/main/res/menu/app_bar_nav_menu.xml" value="0.3296875" />
         <entry key="app/src/main/res/menu/songs_context_menu.xml" value="0.3296875" />
         <entry key="app/src/main/res/xml/root_preferences.xml" value="0.3296875" />

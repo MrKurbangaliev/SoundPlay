@@ -28,11 +28,11 @@ public class Song implements Parcelable {
         mAlbumArt = in.readInt();
     }
 
-    public Song(String SongTitle, String ArtistName, String AlbumTitle, int AlbumArt) {
-        mSongTitle = SongTitle;
-        mArtistName = ArtistName;
-        mAlbumTitle = AlbumTitle;
-        mAlbumArt = AlbumArt;
+    public Song(String songTitle, String artistName, String albumTitle, int albumArt) {
+        mSongTitle = songTitle;
+        mArtistName = artistName;
+        mAlbumTitle = albumTitle;
+        mAlbumArt = albumArt;
     }
 
     /**

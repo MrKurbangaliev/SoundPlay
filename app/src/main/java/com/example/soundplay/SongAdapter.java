@@ -25,22 +25,22 @@ public class SongAdapter extends ArrayAdapter<Song> {
         View listItemView = convertView;
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.song_list_item, parent, false);
         }
 
         Song currentSong = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID song_title
+        // Find the TextView in the song_list_item.xml layout with the ID song_title
         TextView songTitle = listItemView.findViewById(R.id.song_title);
         //Assign a song to a view
         songTitle.setText(currentSong.getSongTitle());
 
-        // Find the TextView in the list_item.xml layout with the ID artist_name
+        // Find the TextView in the song_list_item.xml layout with the ID artist_name
         TextView artistName = listItemView.findViewById(R.id.artist_name);
         //Assign a song to a view
         artistName.setText(currentSong.getArtistName());
 
-        // Find the ImageView in the list.xml layout with the ID album_art_image
+        // Find the ImageView in the song_list_item.xml layout with the ID album_art_image
         ImageView albumArt = listItemView.findViewById(R.id.album_art_image);
         //Assign an album art picture to a view
         albumArt.setImageResource(currentSong.getAlbumArt());

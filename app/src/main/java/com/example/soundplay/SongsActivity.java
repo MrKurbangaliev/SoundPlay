@@ -22,8 +22,8 @@ import java.util.ArrayList;
 
 public class SongsActivity extends AppCompatActivity {
 
-    ListUniversalBinding binding;
-    ListView listView;
+    private ListUniversalBinding binding;
+    private ListView listView;
 
     ArrayList<Song> songs;
     int songPosition;
@@ -63,7 +63,7 @@ public class SongsActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // A long clickListener for recording a position of an item for a context menu.
+        // A long clickListener for capturing a position of an item for a context menu.
         listView.setOnItemLongClickListener((adapterView, view, i, l) -> {
             songPosition = i;
             return false;
@@ -83,9 +83,6 @@ public class SongsActivity extends AppCompatActivity {
             case R.id.add_to_playlist:
                 openPlaylistChooser();
                 return true;
-            case R.id.add_to_favorites:
-                addToFavorites();
-                return true;
             case R.id.delete:
                 removeItem();
                 return true;
@@ -97,11 +94,8 @@ public class SongsActivity extends AppCompatActivity {
     //TODO: finish add to playlist function.
     private void openPlaylistChooser() {
         Intent playlistIntent = new Intent(SongsActivity.this, PlaylistsActivity.class);
+        playlistIntent.putExtra("song_to_be_added", songs.get(songPosition));
         startActivity(playlistIntent);
-    }
-
-    private void addToFavorites() {
-
     }
 
     //TODO: finish remove option.
